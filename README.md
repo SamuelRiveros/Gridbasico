@@ -1,2 +1,2 @@
 # Gridbasico
-Temario de grid, etc
+Inicio del proyecto, base construida
