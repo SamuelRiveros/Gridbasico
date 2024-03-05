@@ -35,14 +35,25 @@ body {
     box-shadow: var(--color-shadows);
 }
 
+.container div {
+    border-radius: 10px;
+}
+
 .item_1 {
-    background-color: blue;
+    display: flex;
+    background-color: gray;
     grid-area: menu
 }
 
 .item_2 {
+    display: flex;
     background-color: orange;
     grid-area: notification
+}
+
+.iconsleft, .iconsright {
+    display: flex;
+    height: 40%;
 }
 
 .item_3 {
