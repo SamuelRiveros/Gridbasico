@@ -48,7 +48,33 @@ body {
     grid-area: menu
 }
 
+.der {
+    display: flex;
+    margin-left: 12rem;
+    width: 38rem;
+    background: linear-gradient(to right, #89d8fa, #d6f064);
+    right:  0px;
+    left: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconsder {
+    display: flex;
+    justify-content: center;
+}
+
+.user {
+    display: flex;
+}
+
+.der .usericond img{
+    display: flex;
+    width: 50px;
+}
+
 .item_2 {
+    background: #87d8f9;
     display: flex;
     grid-area: notification
 }
@@ -73,6 +99,7 @@ body {
 }
 
 .item_6 {
+    background: #d7f065;
     grid-area: devs
 }
 
