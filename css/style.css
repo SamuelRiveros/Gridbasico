@@ -44,17 +44,46 @@ body {
 }
 
 .item_1 {
+    outline: red 3px solid;
+    justify-content: space-between;
     display: flex;
     grid-area: menu
 }
 
+
+.izq a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black !important;
+}
+
+
+
+.izq {
+    display: flex;
+}
+
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.searchicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
 .der {
     display: flex;
-    margin-left: 12rem;
-    width: 38rem;
+    width: 50%;
     background: linear-gradient(to right, #89d8fa, #d6f064);
-    right:  0px;
-    left: 0px;
     align-items: center;
     justify-content: space-between;
 }
@@ -66,6 +95,8 @@ body {
 
 .user {
     display: flex;
+    align-items: center;
+    padding-right: 30px;
 }
 
 .der .usericond img{
@@ -74,15 +105,26 @@ body {
 }
 
 .item_2 {
-    background: #87d8f9;
     display: flex;
-    grid-area: notification
+    background: #87d8f9;
+    flex-direction: column;
+    grid-area: notification;
+    outline: red 1px solid;
 }
 
-.iconsleft, .iconsright {
-    display: flex;
-    height: 40%;
+.icons2 img{
+    height: 50px;
+    width: 50px;
+    outline: red 1px solid;
 }
+
+
+
+
+
+
+
+
 
 .item_3 {
     grid-area: sales
