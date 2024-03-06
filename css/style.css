@@ -71,7 +71,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .searchicon {
@@ -104,56 +104,191 @@ body {
     width: 50px;
 }
 
+/*--------------------------------------*/
+/*----------     ITEM 2     ------------*/
+/*--------------------------------------*/
+
 .item_2 {
     display: flex;
     background: #87d8f9;
     flex-direction: column;
     grid-area: notification;
     outline: red 1px solid;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 .icons2 img{
-    height: 50px;
-    width: 50px;
+    margin-top: 10px;
+    height: 45x;
+    width: 45px;
     outline: red 1px solid;
 }
 
+.title2 {
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+}
 
+.time2 {
+    display: flex;
+    justify-content: ;
+}
 
+.dots2 {
+    justify-content: space-around;
+    display: flex;
+    padding-right: 0px;
+}
 
-
-
+/*--------------------------------------*/
+/*----------     ITEM 3     ------------*/
+/*--------------------------------------*/
 
 
 
 .item_3 {
-    grid-area: sales
+    padding: 10px;
+    grid-area: sales;
+    outline: red 1px solid;
 
 }
 
+.yearlypart {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+
+.upper3 h1 {
+    margin-top: 20px;
+}
+
+.ganancias3{
+    margin-top: 20px;
+    color: #ceec3b;
+}
+
+.picture3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer3 {
+    color: gray;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------------------------------------*/
+/*----------     ITEM 4     ------------*/
+/*--------------------------------------*/
+
 .item_4 {
+
+    outline: red 1px solid;
+    
     grid-area: week
 
 }
 
+/*--------------------------------------*/
+/*----------     ITEM 5     ------------*/
+/*--------------------------------------*/
+
 .item_5 {
-    grid-area: balance
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    outline: red 1px solid;
+    grid-area: balance;
 }
 
+.stuff51, .stuff52, .stuff53 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90px;
+    outline: red 1px solid;
+    margin-top: 10px;
+}
+
+.stuff52 {
+    background-color: #aef7ae;
+}
+
+/*--------------------------------------*/
+/*----------     ITEM 6     ------------*/
+/*--------------------------------------*/
+
 .item_6 {
+
+    outline: red 1px solid;
+    
     background: #d7f065;
     grid-area: devs
 }
 
+/*--------------------------------------*/
+/*----------     ITEM 7     ------------*/
+/*--------------------------------------*/
+
 .item_7 {
+
+    outline: red 1px solid;
+    
     grid-area: product
 
 }
 
-.item_8 { 
+.time7item7 {
+    display: flex;
+    font-size: 19px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.switchplace7 {
+    display: flex;
+    margin-right: 20px;
+}
+
+.boxes7 {
+    display: flex;
+}
+
+.coder7 {
+    background-color: #fffe91;
+}
+
+.meeting7 {
+    background-color: #d7f065;
+}
+
+/*--------------------------------------*/
+/*----------     ITEM 8     ------------*/
+/*--------------------------------------*/
+
+.item_8 {
+    padding-left: 30px;
+
+    outline: red 1px solid;
+    
     grid-area: timeline
 }
 
+.item_8 img {
+    
+    width: 100;
+    height: 190px;
+}
 
 
 
