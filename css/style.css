@@ -95,6 +95,13 @@ body {
 .iconsder {
     display: flex;
     justify-content: center;
+    margin-left: 30px;
+
+}
+
+.iconsder i{
+    font-size: 25px;
+    padding-left: 20px;
 }
 
 .user {
@@ -121,20 +128,42 @@ body {
     padding-top: 10px;
 }
 
-.icons2 img{
+.time2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -40px;
+    margin-bottom: 10px;
+
+}
+
+.icons2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
     margin-top: 10px;
-    height: 45x;
-    width: 45px;
+}
+
+.icons2 img{
+    width: 40px;
+    margin-left: -20px;
+}
+
+.extrasicons {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 100px;
 }
 
 .title2 {
     display: flex;
     font-size: 15px;
     font-weight: bold;
-}
-
-.time2 {
-    display: flex;
 }
 
 .dots2 {
@@ -194,14 +223,41 @@ body {
     grid-area: week;
     padding-left: 20px;
     padding-top: 10px;
-    
+}
+
+.uppershit h3{
+    font-size: 15px;
 }
 
 .icons4 {
     display: flex;
-    justify-content: space-between;
     margin-left: 20px;
     margin-top: 10px;
+}
+
+.bars, .arrow {
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+.bars {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7f065;
+    width: 30px;
+    height: 30px;
+}
+
+.arrow {
+    border-radius: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #87d8f9;
+    width: 30px;
+    height: 30px;  
 }
 
 .icons4 img{
@@ -209,21 +265,6 @@ body {
     margin-left: -20px;
 }
 
-.uppershit {
-    margin-right: 20px;
-
-}
-
-.extrasicons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    width: 40px;
-    height: 40px;
-    background-color: black;
-    border-radius: 100px;
-}
 .pic4 img{
     display: flex;
     margin-left: -10px;
@@ -252,6 +293,10 @@ body {
     justify-content: center;
     width: 200px;
     grid-area: balance;
+}
+
+.item_5 p{
+    color: rgb(75, 75, 75);
 }
 
 .stuff51, .stuff52, .stuff53 {
