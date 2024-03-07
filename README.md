@@ -1,2 +1,2 @@
 # Gridbasico
-Inicio del proyecto, base construida
+Proyecto completado
